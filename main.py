@@ -81,7 +81,6 @@ def run_afk_bot():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--log-level=3")  # Приховати зайві логи
 
-    chrome_options.binary_location = "/usr/bin/chromium-browser"
 
 
     try:
